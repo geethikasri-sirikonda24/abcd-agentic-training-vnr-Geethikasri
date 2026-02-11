@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 0.9em;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#todoInput {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+#todoInput:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+button {
+    padding: 15px 30px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #5568d3;
+}
+
+.todo-list {
+    margin-bottom: 20px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
+
+.todo-item:hover {
+    background: #e9ecef;
+    transform: translateX(5px);
+}
+
+.todo-item.completed {
+    opacity: 0.6;
+}
+
+.todo-item.completed .todo-text {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.todo-checkbox {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.todo-text {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+}
+
+.delete-btn {
+    padding: 8px 15px;
+    background: #ff6b6b;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background: #ee5a5a;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #666;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 40px;
+    color: #999;
+    font-size: 18px;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.todo-item {
+    animation: slideIn 0.3s ease;
+}
