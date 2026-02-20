@@ -1,4 +1,4 @@
-# Assignment & ML Repository
+# ML Assignment Project
 
 This repository contains my Machine Learning and Assignment work.
 
