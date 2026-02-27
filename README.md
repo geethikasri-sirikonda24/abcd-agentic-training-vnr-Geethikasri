@@ -4,7 +4,7 @@ This repository contains my projects.
 
 ---
 
-## 🚀 Full Stack Application
+## 1. Full Stack Application
 
 You can view my complete Full Stack App here:
 
