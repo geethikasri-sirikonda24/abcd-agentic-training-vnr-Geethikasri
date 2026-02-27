@@ -1,6 +1,6 @@
-# ML Assignment Project
+# My Projects
 
-This repository contains my Machine Learning and Assignment work.
+This repository contains my projects.
 
 ---
 
