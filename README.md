@@ -13,7 +13,7 @@ You can view my complete Full Stack App here:
 
 
 
-##2, AutoScamShield AI
+## 2. AutoScamShield AI
 
 You can view my complete project here:
 
