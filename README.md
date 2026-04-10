@@ -9,3 +9,12 @@ This repository contains my projects.
 You can view my complete Full Stack App here:
 
 👉 [Click Here to View Fullstack App](https://github.com/geethikasri-sirikonda24/fullstack-app)
+
+
+
+
+##2, AutoScamShield AI
+
+You can view my complete project here:
+
+https://github.com/geethikasri-sirikonda24/AutoScamShield-AI.git
